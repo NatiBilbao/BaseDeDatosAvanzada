@@ -1,0 +1,20 @@
+1. Obtener todos los registros de navegación de un vuelo específico.
+2. Buscar todos los vuelos realizados en una fecha determinada.
+3. Obtener la ruta de navegación para un vuelo en particular.
+4. Buscar todos los vuelos que han pasado por un determinado punto de navegación.
+5. Obtener la velocidad promedio de un vuelo en un tramo específico.
+6. Buscar todos los vuelos que hayan experimentado turbulencias durante un período de tiempo.
+7. Obtener la altitud máxima alcanzada por una aeronave en un vuelo determinado.
+8. Buscar todos los vuelos que hayan utilizado una determinada pista de despegue/aterrizaje.
+9. Obtener la distancia recorrida por una aeronave en un vuelo específico.
+10. Buscar todos los vuelos que hayan experimentado cambios de rumbo bruscos.
+11. Obtener la duración de un vuelo específico.
+12. Buscar todos los vuelos que hayan realizado aterrizajes de emergencia.
+13. Obtener la cantidad de combustible consumido en un vuelo determinado.
+14. Buscar todos los vuelos que hayan experimentado retrasos en el despegue.
+15. Obtener la velocidad vertical de ascenso/descenso de una aeronave en un momento dado.
+16. Buscar todos los vuelos que hayan experimentado condiciones climáticas adversas.
+17. Obtener la altitud media de un vuelo en un tramo específico.
+18. Buscar todos los vuelos que hayan realizado vuelos sin escalas.
+19. Obtener la cantidad de pasajeros a bordo de una aeronave en un vuelo determinado.
+20. Buscar todos los vuelos que hayan tenido problemas con el sistema de navegación.

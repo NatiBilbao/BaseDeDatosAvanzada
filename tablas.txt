@@ -1,0 +1,66 @@
+1. Vuelo:
+    - id_vuelo(Llave primaria)
+    - id_aeronave
+    - numero_vuelo
+    - fecha_salida
+    - hora_salida
+    - fecha_llegada
+    - hora_llegada
+
+2. RegistroNavegacion:
+    - id_registro_navegacion(Llave primaria)
+    - id_vuelo
+    - marca_tiempo_registro
+    - latitud_actual
+    - longitud_actual
+    - altitud_actual
+    - velocidad_actual
+    - rumbo_actual
+    - velocidad_vertical_actual
+
+3. RutaVuelo:
+    - id_ruta(Llave primaria)
+    - id_vuelo(Llave compuesta)
+    - id_punto_navegacion(Llave compuesta)
+    - numero_secuencia
+
+4. PuntoNavegacion:
+    - id_punto_navegacion(Llave primaria)
+    - latitud
+    - longitud
+
+5. RegistroTurbulencias:
+    - id_turbulencia(Llave primaria)
+    - id_vuelo
+    - marca_tiempo_turbulencia
+    - intensidad_turbulencia
+
+6. PistaVuelo:
+    - id_seguimiento_vuelo(Llave primaria)
+    - id_vuelo
+    - latitud_seguimiento
+    - longitud_seguimiento
+    - altitud_seguimiento
+    - velocidad_seguimiento
+
+7. PistaAterrizaje:
+    - id_pista(Llave primaria)
+    - nombre_pista
+
+8. AterrizajeEmergencia:
+    - id_aterrizaje_emergencia(Llave primaria)
+    - id_vuelo
+    - marca_tiempo_aterrizaje_emergencia
+    - motivo_aterrizaje_emergencia
+
+9. CondicionesMeteorologicas:
+    - id_condiciones_meteorologicas(Llave primaria)
+    - id_vuelo
+    - marca_tiempo_condiciones_meteorologicas
+    - descripción_condiciones_meteorologicas
+
+10. FalloSistemaNavegacion:
+    - id_fallo_sistema_navegacion(Llave primaria)
+    - id_vuelo
+    - marca_tiempo_fallo_sistema_navegacion
+    - tipo_fallo_sistema_navegacion

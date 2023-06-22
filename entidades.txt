@@ -1,0 +1,30 @@
+1. Vuelo:
+- id_vuelo   
+- id_aeronave
+- numero_vuelo 
+- fecha_salida 
+- hora_salida 
+- fecha_llegada 
+- hora_llegada 
+ 
+2. RegistroNavegacion  
+- id_registro   
+- id_vuelo   
+- marca_tiempo   
+- latitud    
+- longitud   
+- altitud    
+- velocidad      
+- rumbo     
+- velocidad_vertical 
+        
+3. RutaVuelo 
+- id_ruta    
+- id_vuelo   
+- id_punto_ruta 
+- numero_secuencia 
+         
+4. PuntoNavegacion 
+- id_punto_ruta 
+- latitud    
+- longitud   
