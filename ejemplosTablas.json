@@ -1,9 +1,9 @@
 {
     "Vuelo": [
       {
-        "id_vuelo": 1,
-        "id_aeronave": 1001,
-        "numero_vuelo": "FL123",
+        "id_vuelo": "FL001",
+        "id_aeronave": "CRJ200-001",
+        "numero_vuelo": "AA123",
         "fecha_salida": "2023-06-21",
         "hora_salida": "08:00",
         "fecha_llegada": "2023-06-21",
@@ -12,8 +12,8 @@
     ],
     "RegistroNavegacion": [
       {
-        "id_registro_navegacion": 1,
-        "id_vuelo": 1,
+        "id_registro_navegacion": "NR001",
+        "id_vuelo": "FL001",
         "marca_tiempo_registro": "2023-06-21T08:15:00",
         "latitud_actual": 34.215,
         "longitud_actual": -118.345,
@@ -25,31 +25,31 @@
     ],
     "RutaVuelo": [
       {
-        "id_ruta": 1,
-        "id_vuelo": 1,
-        "id_punto_navegacion": 1001,
+        "id_ruta": "RT001",
+        "id_vuelo": "FL001",
+        "id_punto_navegacion": "WPT001",
         "numero_secuencia": 1
       }
     ],
     "PuntoNavegacion": [
       {
-        "id_punto_navegacion": 1001,
+        "id_punto_navegacion": "WPT001",
         "latitud": 34.215,
         "longitud": -118.345
       }
     ],
     "RegistroTurbulencias": [
       {
-        "id_turbulencia": 1,
-        "id_vuelo": 1,
+        "id_turbulencia": "TB001",
+        "id_vuelo": "FL001",
         "marca_tiempo_turbulencia": "2023-06-21T09:30:00",
-        "intensidad_turbulencia": "Moderate"
+        "intensidad_turbulencia": "Moderado"
       }
     ],
     "PistaVuelo": [
       {
-        "id_seguimiento_vuelo": 1,
-        "id_vuelo": 1,
+        "id_seguimiento_vuelo": "TRK001",
+        "id_vuelo": "FL001",
         "latitud_seguimiento": 34.215,
         "longitud_seguimiento": -118.345,
         "altitud_seguimiento": 32000,
@@ -58,30 +58,30 @@
     ],
     "PistaAterrizaje": [
       {
-        "id_pista": 1,
+        "id_pista": "RW001",
         "nombre_pista": "RWY27"
       }
     ],
     "AterrizajeEmergencia": [
       {
-        "id_aterrizaje_emergencia": 1,
-        "id_vuelo": 1,
+        "id_aterrizaje_emergencia": "EL001",
+        "id_vuelo": "FL001",
         "marca_tiempo_aterrizaje_emergencia": "2023-06-21T10:35:00",
-        "motivo_aterrizaje_emergencia": "Engine failure"
+        "motivo_aterrizaje_emergencia": "Fallo del motor"
       }
     ],
     "CondicionesMeteorologicas": [
       {
-        "id_condiciones_meteorologicas": 1,
-        "id_vuelo": 1,
+        "id_condiciones_meteorologicas": "WC001",
+        "id_vuelo": "FL001",
         "marca_tiempo_condiciones_meteorologicas": "2023-06-21T08:00:00",
-        "descripción_condiciones_meteorologicas": "Clear skies"
+        "descripción_condiciones_meteorologicas": "Cielos despejados"
       }
     ],
     "FalloSistemaNavegacion": [
       {
-        "id_fallo_sistema_navegacion": 1,
-        "id_vuelo": 1,
+        "id_fallo_sistema_navegacion": "NSF001",
+        "id_vuelo": "FL001",
         "marca_tiempo_fallo_sistema_navegacion": "2023-06-21T08:20:00",
         "tipo_fallo_sistema_navegacion": "GPS"
       }

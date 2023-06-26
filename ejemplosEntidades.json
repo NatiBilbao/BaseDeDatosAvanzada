@@ -1,9 +1,9 @@
 {
     "Vuelo": [
       {
-        "id_vuelo": 1,
-        "id_aeronave": 1001,
-        "numero_vuelo": "CRJ200001",
+        "id_vuelo": "FL002",
+        "id_aeronave": "CRJ200-002",
+        "numero_vuelo": "CRJ200002",
         "fecha_salida ": "2023-06-20",
         "hora_salida": "08:30",
         "fecha_llegada": "2023-06-20",
@@ -11,20 +11,20 @@
       },
 
       {
-        "id_vuelo": 2,
-        "id_aeronave": 1002,
-        "numero_vuelo": "CRJ200002",
+        "id_vuelo": "FL003",
+        "id_aeronave": "CRJ200-003",
+        "numero_vuelo": "CRJ200003",
         "fecha_salida ": "2023-06-21",
         "hora_salida": "12:15",
         "fecha_llegada": "2023-06-21",
-        "hora_llegada": "10:45"
+        "hora_llegada": "16:00"
       }
     ],
 
     "RegistroNavegación": [
       {
-        "id_registro": 1,
-        "id_vuelo": 1,
+        "id_registro": "NR002",
+        "id_vuelo": "FL002",
         "marca_tiempo": "2023-06-20T08:32:00",
         "latitud": 34.215,
         "longitud": -118.345,
@@ -35,8 +35,8 @@
       },
 
       {
-        "id_registro": 2,
-        "id_vuelo": 1,
+        "id_registro": "NR003",
+        "id_vuelo": "FL003",
         "marca_tiempo": "2023-06-20T08:35:00",
         "latitud": 34.520,
         "longitud": -118.760,
@@ -49,29 +49,29 @@
 
     "RutaVuelo": [
       {
-        "id_ruta": 1,
-        "id_vuelo": 1,
-        "id_punto_ruta": 1001,
-        "numero_secuencia": 1
+        "id_ruta": "RT002",
+        "id_vuelo": "FL002",
+        "id_punto_navegacion": "WPT002",
+        "numero_secuencia": 2
       },
       
       {
-        "id_ruta": 2,
-        "id_vuelo": 1,
-        "id_punto_ruta": 1002,
-        "numero_secuencia": 2
+        "id_ruta": "RT003",
+        "id_vuelo": "FL003",
+        "id_punto_navegacion": "WPT003",
+        "numero_secuencia": 3
       }
     ],
     
     "PuntoNavegación": [
       {
-        "id_punto_ruta": 1001,
+        "id_punto_ruta": "WPT002",
         "latitud": 34.215,
         "longitud": -118.345
       },
       
       {
-        "id_punto_ruta": 1002,
+        "id_punto_ruta": "WPT003",
         "latitud": 34.520,
         "longitud": -118.760
       }
