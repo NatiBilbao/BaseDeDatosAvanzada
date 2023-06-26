@@ -5,7 +5,7 @@ Descripción
 
 Esta base de datos NoSQL ha sido diseñada para almacenar información relacionada con la navegación de la aeronave CRJ-200. Contiene varias tablas que capturan datos como vuelos, registros de navegación, rutas de vuelo, puntos de navegación, registros de turbulencia, seguimiento de vuelo, información de pistas, aterrizajes de emergencia, condiciones climáticas y fallos del sistema de navegación.
 
-Estructura de las tablas
+## Estructura de las tablas
 
 Las tablas en esta base de datos NoSQL están diseñadas de la siguiente manera:
 
@@ -20,7 +20,7 @@ Las tablas en esta base de datos NoSQL están diseñadas de la siguiente manera:
     CondicionesMeteorologicas: Tabla que almacena información sobre las condiciones climáticas durante un vuelo.
     FalloSistemaNavegacion: Tabla que registra los fallos del sistema de navegación durante un vuelo.
 
-Ejemplos de datos
+## Ejemplos de datos
 
 En la carpeta "ejemplosTablas" de este repositorio, encontrarás ejemplos de datos en formato JSON que representan los registros de las 10 tablas mencionadas anteriormente. Estos ejemplos te servirán como referencia para comprender la estructura y el contenido de los registros en la base de datos.
 
