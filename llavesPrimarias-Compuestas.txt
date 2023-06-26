@@ -1,0 +1,29 @@
+1. Vuelo:
+• Llave primaria: id_vuelo
+
+2. RegistroNavegacion:
+• Llave primaria: id_registro_navegacion
+
+3. RutaVuelo:
+• Llave primaria compuesta: id_ruta, id_vuelo
+
+4. PuntoNavegacion:
+• Llave primaria: id_punto_navegacion
+
+5. RegistroTurbulencias:
+• Llave primaria: id_turbulencia
+
+6. PistaVuelo:
+• Llave primaria: id_seguimiento_vuelo
+
+7. PistaAterrizaje:
+• Llave primaria: id_pista
+
+8. AterrizajeEmergencia:
+• Llave primaria: id_aterrizaje_emergencia
+
+9. CondicionesMeteorologicas:
+• Llave primaria: id_condiciones_meteorologicas
+
+10. FalloSistemaNavegacion:
+• Llave primaria: id_fallo_sistema_navegacion
