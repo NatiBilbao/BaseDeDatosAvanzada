@@ -9,16 +9,16 @@ Esta base de datos NoSQL ha sido diseñada para almacenar información relaciona
 
 Las tablas en esta base de datos NoSQL están diseñadas de la siguiente manera:
 
-    Vuelo: Tabla que almacena información sobre los vuelos realizados en la aeronave CRJ-200.
-    RegistroNavegacion: Tabla que registra los datos de navegación en diferentes momentos durante un vuelo.
-    RutaVuelo: Tabla que mantiene la información de las rutas de vuelo asociadas a cada vuelo.
-    PuntoNavegacion: Tabla que almacena los puntos de navegación utilizados en las rutas de vuelo.
-    RegistroTurbulencias: Tabla que registra los datos de turbulencia durante un vuelo.
-    PistaVuelo: Tabla que mantiene el seguimiento de la aeronave durante un vuelo.
-    PistaAterrizaje: Tabla que contiene información sobre las pistas de aterrizaje.
-    AterrizajeEmergencia: Tabla que registra los aterrizajes de emergencia realizados durante un vuelo.
-    CondicionesMeteorologicas: Tabla que almacena información sobre las condiciones climáticas durante un vuelo.
-    FalloSistemaNavegacion: Tabla que registra los fallos del sistema de navegación durante un vuelo.
+    1. Vuelo: Tabla que almacena información sobre los vuelos realizados en la aeronave CRJ-200.
+    2. RegistroNavegacion: Tabla que registra los datos de navegación en diferentes momentos durante un vuelo.
+    3. RutaVuelo: Tabla que mantiene la información de las rutas de vuelo asociadas a cada vuelo.
+    4. PuntoNavegacion: Tabla que almacena los puntos de navegación utilizados en las rutas de vuelo.
+    5. RegistroTurbulencias: Tabla que registra los datos de turbulencia durante un vuelo.
+    6. PistaVuelo: Tabla que mantiene el seguimiento de la aeronave durante un vuelo.
+    7. PistaAterrizaje: Tabla que contiene información sobre las pistas de aterrizaje.
+    8. AterrizajeEmergencia: Tabla que registra los aterrizajes de emergencia realizados durante un vuelo.
+    9. CondicionesMeteorologicas: Tabla que almacena información sobre las condiciones climáticas durante un vuelo.
+    10. FalloSistemaNavegacion: Tabla que registra los fallos del sistema de navegación durante un vuelo.
 
 ## Ejemplos de datos
 
