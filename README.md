@@ -18,6 +18,6 @@ Las tablas en esta base de datos NoSQL están diseñadas de la siguiente manera:
 
 ## Ejemplos de datos
 
-En la carpeta "ejemplosTablas" de este repositorio, encontrarás ejemplos de datos en formato JSON que representan los registros de las 10 tablas mencionadas anteriormente. Estos ejemplos te servirán como referencia para comprender la estructura y el contenido de los registros en la base de datos.
+En la carpeta "ejemplosTablas" de este repositorio, encontrarás ejemplos de datos en formato JSON que representan los registros de las tablas mencionadas anteriormente. Estos ejemplos te servirán como referencia para comprender la estructura y el contenido de los registros en la base de datos.
 
 Nota: Los datos y ejemplos proporcionados en este repositorio son ficticios y se utilizan únicamente con fines de demostración.
