@@ -7,10 +7,10 @@
     "Pista_Despegue": "Pista 1",
     "Pista_Aterrizaje": "Pista 3",
     "Pasajeros": 150,
-    "Combustible_Consumido": 10000,
+    "Combustible_Consumido": "5000 kg",
     "Emergencia_Aterrizaje": false,
     "Retraso_Despegue": false,
-    "Problema_Navegacion": true
+    "Problema_Navegacion": false
     }
   ],
   "Navegacion": [
@@ -18,7 +18,7 @@
     "ID_Navegacion": "N001",
     "ID_Vuelo": "V001",
     "Punto_Navegacion": "WAYPOINT1",
-    "Tiempo_Turbulencias": 15,
+    "Tiempo_Turbulencias": "10 min",
     "Cambio_Rumbo_Brusco": false,
     "Condiciones_Climaticas": true
     }
@@ -35,8 +35,8 @@
     "ID_Velocidad": "V001",
     "ID_Vuelo": "V001",
     "Tramo_Especifico": "Tramo1",
-    "Velocidad_Promedio": 500,
-    "Velocidad_Vertical": 100
+    "Velocidad_Promedio": "500 km/h",
+    "Velocidad_Vertical": "1000 ft/min"
     }
   ],
   "Altitudes": [
@@ -44,8 +44,8 @@
     "ID_Altitud": "A001",
     "ID_Vuelo": "V001",
     "Tramo_Especifico": "Tramo1",
-    "Altitud_Maxima": 35000,
-    "Altitud_Media": 30000
+    "Altitud_Maxima": "35000 ft",
+    "Altitud_Media": "30000 ft"
     }
   ]
 }
