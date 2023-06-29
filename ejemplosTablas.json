@@ -1,51 +1,51 @@
 {
   "Vuelos": [
     {
-      "ID_Vuelo": "V1",
-      "Fecha": "2023-06-01",
-      "Duracion": "2h 30min",
-      "Pista_Despegue": "Pista 1",
-      "Pista_Aterrizaje": "Pista 3",
-      "Pasajeros": 150,
-      "Combustible_Consumido": "5000 kg",
-      "Emergencia_Aterrizaje": false,
-      "Retraso_Despegue": false,
-      "Problema_Navegacion": false
+    "ID_Vuelo": "V001",
+    "Fecha": "2023-06-01",
+    "Duracion": "4h 30m",
+    "Pista_Despegue": "Pista 1",
+    "Pista_Aterrizaje": "Pista 3",
+    "Pasajeros": 150,
+    "Combustible_Consumido": 10000,
+    "Emergencia_Aterrizaje": false,
+    "Retraso_Despegue": false,
+    "Problema_Navegacion": true
     }
   ],
   "Navegacion": [
     {
-      "ID_Navegacion": "N1",
-      "ID_Vuelo": "V1",
-      "Punto_Navegacion": "Punto A",
-      "Tiempo_Turbulencias": "10 min",
-      "Cambio_Rumbo_Brusco": true,
-      "Condiciones_Climaticas": false
+    "ID_Navegacion": "N001",
+    "ID_Vuelo": "V001",
+    "Punto_Navegacion": "WAYPOINT1",
+    "Tiempo_Turbulencias": 15,
+    "Cambio_Rumbo_Brusco": false,
+    "Condiciones_Climaticas": true
     }
   ],
   "Rutas": [
     {
-      "ID_Ruta": "R1",
-      "ID_Vuelo": "V1",
-      "Ruta_Navegacion": "A-B-C-D"
+    "ID_Ruta": "R001",
+    "ID_Vuelo": "V001",
+    "Ruta_Navegacion": ["WAYPOINT1", "WAYPOINT2", "WAYPOINT3"]
     }
   ],
   "Velocidades": [
     {
-      "ID_Velocidad": "Vel1",
-      "ID_Vuelo": "V1",
-      "Tramo_Especifico": "A-B",
-      "Velocidad_Promedio": "500 km/h",
-      "Velocidad_Vertical": "1000 ft/min"
+    "ID_Velocidad": "V001",
+    "ID_Vuelo": "V001",
+    "Tramo_Especifico": "Tramo1",
+    "Velocidad_Promedio": 500,
+    "Velocidad_Vertical": 100
     }
   ],
   "Altitudes": [
     {
-      "ID_Altitud": "Alt1",
-      "ID_Vuelo": "V1",
-      "Tramo_Especifico": "A-B",
-      "Altitud_Maxima": "35000 ft",
-      "Altitud_Media": "30000 ft"
+    "ID_Altitud": "A001",
+    "ID_Vuelo": "V001",
+    "Tramo_Especifico": "Tramo1",
+    "Altitud_Maxima": 35000,
+    "Altitud_Media": 30000
     }
   ]
 }
