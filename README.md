@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Esta base de datos NoSQL ha sido diseñada para almacenar información relacionada con la navegación de la aeronave CRJ-200. Contiene varias tablas que capturan datos como vuelos, registros de navegación, rutas de vuelo, puntos de navegación, registros de turbulencia, seguimiento de vuelo, información de pistas, aterrizajes de emergencia, condiciones climáticas y fallos del sistema de navegación.
+Esta base de datos NoSQL ha sido diseñada para almacenar información relacionada con la navegación de la aeronave CRJ-200. Contiene varias tablas que capturan datos como vuelos, navegación, rutas, y altitud. 
 
 ## Estructura de las tablas
 
