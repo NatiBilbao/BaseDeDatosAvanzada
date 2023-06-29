@@ -1,29 +1,23 @@
-1. Vuelo:
-• Llave primaria: id_vuelo
+Colección 1: Vuelos
 
-2. RegistroNavegacion:
-• Llave primaria: id_registro_navegacion
+    Llave simple: ID_Vuelo (Identificador único del vuelo)
 
-3. RutaVuelo:
-• Llave primaria compuesta: id_ruta, id_vuelo
+Colección 2: Navegacion
 
-4. PuntoNavegacion:
-• Llave primaria: id_punto_navegacion
+    Llave simple: ID_Navegacion (Identificador único de la navegación)
+    Llave compuesta: (ID_Vuelo, ID_Navegacion) (Referencia al vuelo y al identificador único de la navegación)
 
-5. RegistroTurbulencias:
-• Llave primaria: id_turbulencia
+Colección 3: Rutas
 
-6. PistaVuelo:
-• Llave primaria: id_seguimiento_vuelo
+    Llave simple: ID_Ruta (Identificador único de la ruta)
+    Llave compuesta: (ID_Vuelo, ID_Ruta) (Referencia al vuelo y al identificador único de la ruta)
 
-7. PistaAterrizaje:
-• Llave primaria: id_pista
+Colección 4: Velocidades
 
-8. AterrizajeEmergencia:
-• Llave primaria: id_aterrizaje_emergencia
+    Llave simple: ID_Velocidad (Identificador único de la velocidad)
+    Llave compuesta: (ID_Vuelo, ID_Velocidad) (Referencia al vuelo y al identificador único de la velocidad)
 
-9. CondicionesMeteorologicas:
-• Llave primaria: id_condiciones_meteorologicas
+Colección 5: Altitudes
 
-10. FalloSistemaNavegacion:
-• Llave primaria: id_fallo_sistema_navegacion
+    Llave simple: ID_Altitud (Identificador único de la altitud)
+    Llave compuesta: (ID_Vuelo, ID_Altitud) (Referencia al vuelo y al identificador único de la altitud)

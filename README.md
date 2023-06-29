@@ -11,15 +11,10 @@ Esta base de datos NoSQL ha sido diseñada para almacenar información relaciona
 Las tablas en esta base de datos NoSQL están diseñadas de la siguiente manera:
 
     1. Vuelo: Tabla que almacena información sobre los vuelos realizados en la aeronave CRJ-200.
-    2. RegistroNavegacion: Tabla que registra los datos de navegación en diferentes momentos durante un vuelo.
-    3. RutaVuelo: Tabla que mantiene la información de las rutas de vuelo asociadas a cada vuelo.
-    4. PuntoNavegacion: Tabla que almacena los puntos de navegación utilizados en las rutas de vuelo.
-    5. RegistroTurbulencias: Tabla que registra los datos de turbulencia durante un vuelo.
-    6. PistaVuelo: Tabla que mantiene el seguimiento de la aeronave durante un vuelo.
-    7. PistaAterrizaje: Tabla que contiene información sobre las pistas de aterrizaje.
-    8. AterrizajeEmergencia: Tabla que registra los aterrizajes de emergencia realizados durante un vuelo.
-    9. CondicionesMeteorologicas: Tabla que almacena información sobre las condiciones climáticas durante un vuelo.
-    10. FalloSistemaNavegacion: Tabla que registra los fallos del sistema de navegación durante un vuelo.
+    2. Navegacion: Tabla que registra los datos de navegación en diferentes momentos durante un vuelo.
+    3. Rutas: Tabla que mantiene la información de las rutas de vuelo asociadas a cada vuelo.
+    4. Velocidades: Tabla que registra la información relacionada con las velocidades de un vuelo en diferentes tramos.
+    5. Altitudes: Tabla que mantiene la información de la altiud.
 
 ## Ejemplos de datos
 

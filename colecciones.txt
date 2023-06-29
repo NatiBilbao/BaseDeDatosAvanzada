@@ -1,0 +1,43 @@
+Colección 1: Vuelos
+
+    ID_Vuelo (Identificador único del vuelo)
+    Fecha (Fecha del vuelo)
+    Duracion (Duración del vuelo)
+    Pista_Despegue (Pista de despegue utilizada)
+    Pista_Aterrizaje (Pista de aterrizaje utilizada)
+    Pasajeros (Cantidad de pasajeros a bordo)
+    Combustible_Consumido (Cantidad de combustible consumido)
+    Emergencia_Aterrizaje (Indicador de aterrizaje de emergencia)
+    Retraso_Despegue (Indicador de retraso en el despegue)
+    Problema_Navegacion (Indicador de problemas con el sistema de navegación)
+
+Colección 2: Navegacion
+
+    ID_Navegacion (Identificador único de la navegación)
+    ID_Vuelo (Referencia al vuelo)
+    Punto_Navegacion (Punto de navegación atravesado)
+    Tiempo_Turbulencias (Indicador de tiempo de turbulencias)
+    Cambio_Rumbo_Brusco (Indicador de cambio de rumbo brusco)
+    Condiciones_Climaticas (Indicador de condiciones climáticas adversas)
+
+Colección 3: Rutas
+
+    ID_Ruta (Identificador único de la ruta)
+    ID_Vuelo (Referencia al vuelo)
+    Ruta_Navegacion (Ruta de navegación para un vuelo específico)
+
+Colección 4: Velocidades
+
+    ID_Velocidad (Identificador único de la velocidad)
+    ID_Vuelo (Referencia al vuelo)
+    Tramo_Especifico (Tramo específico)
+    Velocidad_Promedio (Velocidad promedio en el tramo específico)
+    Velocidad_Vertical (Velocidad vertical de ascenso/descenso en un momento dado)
+
+Colección 5: Altitudes
+
+    ID_Altitud (Identificador único de la altitud)
+    ID_Vuelo (Referencia al vuelo)
+    Tramo_Especifico (Tramo específico)
+    Altitud_Maxima (Altitud máxima alcanzada en el tramo específico)
+    Altitud_Media (Altitud media en el tramo específico)

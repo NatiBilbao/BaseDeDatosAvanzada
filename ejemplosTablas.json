@@ -1,89 +1,51 @@
 {
-    "Vuelo": [
-      {
-        "id_vuelo": "FL001",
-        "id_aeronave": "CRJ200-001",
-        "numero_vuelo": "AA123",
-        "fecha_salida": "2023-06-21",
-        "hora_salida": "08:00",
-        "fecha_llegada": "2023-06-21",
-        "hora_llegada": "10:30"
-      }
-    ],
-    "RegistroNavegacion": [
-      {
-        "id_registro_navegacion": "NR001",
-        "id_vuelo": "FL001",
-        "marca_tiempo_registro": "2023-06-21T08:15:00",
-        "latitud_actual": 34.215,
-        "longitud_actual": -118.345,
-        "altitud_actual": 32000,
-        "velocidad_actual": 450,
-        "rumbo_actual": 120,
-        "velocidad_vertical_actual": 2000
-      }
-    ],
-    "RutaVuelo": [
-      {
-        "id_ruta": "RT001",
-        "id_vuelo": "FL001",
-        "id_punto_navegacion": "WPT001",
-        "numero_secuencia": 1
-      }
-    ],
-    "PuntoNavegacion": [
-      {
-        "id_punto_navegacion": "WPT001",
-        "latitud": 34.215,
-        "longitud": -118.345
-      }
-    ],
-    "RegistroTurbulencias": [
-      {
-        "id_turbulencia": "TB001",
-        "id_vuelo": "FL001",
-        "marca_tiempo_turbulencia": "2023-06-21T09:30:00",
-        "intensidad_turbulencia": "Moderado"
-      }
-    ],
-    "PistaVuelo": [
-      {
-        "id_seguimiento_vuelo": "TRK001",
-        "id_vuelo": "FL001",
-        "latitud_seguimiento": 34.215,
-        "longitud_seguimiento": -118.345,
-        "altitud_seguimiento": 32000,
-        "velocidad_seguimiento": 450
-      }
-    ],
-    "PistaAterrizaje": [
-      {
-        "id_pista": "RW001",
-        "nombre_pista": "RWY 27L"
-      }
-    ],
-    "AterrizajeEmergencia": [
-      {
-        "id_aterrizaje_emergencia": "EL001",
-        "id_vuelo": "FL001",
-        "marca_tiempo_aterrizaje_emergencia": "2023-06-21T10:35:00",
-        "motivo_aterrizaje_emergencia": "Fallo del motor"
-      }
-    ],
-    "CondicionesMeteorologicas": [
-      {
-        "id_condiciones_meteorologicas": "WC001",
-        "id_vuelo": "FL001",
-        "marca_tiempo_condiciones_meteorologicas": "2023-06-21T08:00:00",
-        "descripción_condiciones_meteorologicas": "Cielos despejados"
-      }
-    ],
-    "FalloSistemaNavegacion": [
-      {
-        "id_fallo_sistema_navegacion": "NSF001",
-        "id_vuelo": "FL001",
-        "marca_tiempo_fallo_sistema_navegacion": "2023-06-21T08:20:00",
-        "tipo_fallo_sistema_navegacion": "GPS"
-      }
-    ]
-  }
+  "Vuelos": [
+    {
+      "ID_Vuelo": "V1",
+      "Fecha": "2023-06-01",
+      "Duracion": "2h 30min",
+      "Pista_Despegue": "Pista 1",
+      "Pista_Aterrizaje": "Pista 3",
+      "Pasajeros": 150,
+      "Combustible_Consumido": "5000 kg",
+      "Emergencia_Aterrizaje": false,
+      "Retraso_Despegue": false,
+      "Problema_Navegacion": false
+    }
+  ],
+  "Navegacion": [
+    {
+      "ID_Navegacion": "N1",
+      "ID_Vuelo": "V1",
+      "Punto_Navegacion": "Punto A",
+      "Tiempo_Turbulencias": "10 min",
+      "Cambio_Rumbo_Brusco": true,
+      "Condiciones_Climaticas": false
+    }
+  ],
+  "Rutas": [
+    {
+      "ID_Ruta": "R1",
+      "ID_Vuelo": "V1",
+      "Ruta_Navegacion": "A-B-C-D"
+    }
+  ],
+  "Velocidades": [
+    {
+      "ID_Velocidad": "Vel1",
+      "ID_Vuelo": "V1",
+      "Tramo_Especifico": "A-B",
+      "Velocidad_Promedio": "500 km/h",
+      "Velocidad_Vertical": "1000 ft/min"
+    }
+  ],
+  "Altitudes": [
+    {
+      "ID_Altitud": "Alt1",
+      "ID_Vuelo": "V1",
+      "Tramo_Especifico": "A-B",
+      "Altitud_Maxima": "35000 ft",
+      "Altitud_Media": "30000 ft"
+    }
+  ]
+}

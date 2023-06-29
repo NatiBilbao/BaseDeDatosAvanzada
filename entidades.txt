@@ -1,30 +1,15 @@
-1. Vuelo:
-- id_vuelo   
-- id_aeronave
-- numero_vuelo 
-- fecha_salida 
-- hora_salida 
-- fecha_llegada 
-- hora_llegada 
- 
-2. RegistroNavegacion  
-- id_registro   
-- id_vuelo   
-- marca_tiempo   
-- latitud    
-- longitud   
-- altitud    
-- velocidad      
-- rumbo     
-- velocidad_vertical 
-        
-3. RutaVuelo 
-- id_ruta    
-- id_vuelo   
-- id_punto_ruta 
-- numero_secuencia 
-         
-4. PuntoNavegacion 
-- id_punto_ruta 
-- latitud    
-- longitud   
+- Vuelo: Representa un vuelo específico e incluye información como el ID del vuelo, 
+la fecha, la duración, las pistas de despegue y aterrizaje utilizadas, la cantidad de pasajeros a bordo, 
+el combustible consumido, indicadores de aterrizaje de emergencia, retraso en el despegue y 
+problemas con el sistema de navegación.
+
+- Navegación: Representa la información relacionada con la navegación de un vuelo, 
+incluyendo el ID de navegación, el punto de navegación atravesado, el tiempo de turbulencias,
+el cambio de rumbo brusco y las condiciones climáticas adversas.
+
+- Ruta: Representa la ruta de navegación para un vuelo en particular, incluyendo el ID de la ruta y 
+la ruta de navegación propiamente dicha.
+
+- Velocidades: Representa la información relacionada con las velocidades de un vuelo en diferentes tramos, 
+incluyendo el ID de velocidad, el tramo específico, la velocidad promedio y la velocidad vertical de ascenso/descenso 
+en un momento dado.
